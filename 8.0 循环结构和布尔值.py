@@ -39,7 +39,7 @@ main()
 # 8.1.3 文件循环
 def main():
     fileName = input("What file are the numbers in? ")
-    infile = open(fileName,’r’)
+    infile = open(fileName,'r')
     total = 0.0
     count = 0
     for line in infile:
@@ -50,7 +50,7 @@ main()
 
 def main():
     fileName = input("What file are the numbers in? ")
-    infile = open(fileName,’r’)
+    infile = open(fileName,'r')
     total = 0.0
     count = 0
     line = infile.readline()
@@ -64,7 +64,7 @@ main()
 # 8.1.4 嵌套循环
 def main():
     fileName = input("What file are the numbers in? ")
-    infile = open(fileName,’r’)
+    infile = open(fileName,'r')
     total = 0.0
     count = 0
     line = infile.readline()
